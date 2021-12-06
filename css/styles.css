@@ -944,7 +944,7 @@ display: block;
 .link-policy {
   color: var(--accent-color);
 }
-
+/* ---- Кнопка Отправить------ */
 .btn-modal-btn {
   width: 200px;
   height: 50px;
