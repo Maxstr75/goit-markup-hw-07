@@ -1,1 +1,12 @@
-@import "./components/header";
+@import "./utils/variables";
+@import "./base/reset";
+@import "./base/common";
+@import "./utils/hidden";
+@import "./components/container";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/peculiarities";
+@import "./layout/about";
+@import "./layout/team";
+@import "./layout/client";
+@import "./layout/footer";
