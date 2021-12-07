@@ -1,0 +1,14 @@
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.features-item:not(:last-child) {
+  margin-right: 8px;
+}
