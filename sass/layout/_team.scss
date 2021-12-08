@@ -85,14 +85,13 @@
   color: #afb1b8;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--main-title-color);
+  }
 }
 
 .persons-social-icon {
   fill: currentColor;
-}
-
-.persons-social-link:hover,
-.persons-social-link:focus {
-  background-color: var(--accent-color);
-  color: var(--main-title-color);
 }
