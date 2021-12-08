@@ -17,7 +17,7 @@
         "../sass/layout/_footer.scss",
         "../sass/layout/_social_title-title.scss",
         "../sass/layout/_social-newsletter-title.scss",
-        "../sass/layout/_backdrop.scss",
+        "../sass/components/_modal.scss",
         "../sass/layout/_check-text.scss",
         "../sass/layout/_page-header-portfolio.scss",
         "../sass/layout/_features.scss",
