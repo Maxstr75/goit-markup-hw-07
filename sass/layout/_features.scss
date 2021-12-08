@@ -9,6 +9,8 @@
   margin-bottom: 50px;
 }
 
-.features-item:not(:last-child) {
-  margin-right: 8px;
+.features-item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
