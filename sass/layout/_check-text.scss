@@ -25,9 +25,11 @@
   fill: #ffffff;
 }
 
-.modal-check:checked + .check-text .check-item {
-  background-color: var(--accent-color);
-  border: none;
+.modal-check:checked + .check-text {
+  .check-item {
+    background-color: var(--accent-color);
+    border: none;
+  }
 }
 
 .link-policy {
