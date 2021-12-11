@@ -1,3 +1,8 @@
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .page-header {
   width: 100%;
   top: 0;
@@ -7,33 +12,7 @@
   padding-bottom: 25px;
 }
 
-.header-list {
-  display: flex;
-}
-
-.header-navigation {
-  display: flex;
-  align-items: center;
-}
-
-.link-box {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
-.header-item {
-  &:not(:last-child) {
-    margin-right: 50px;
-  }
-}
-
-.header_logo-web {
+&_logo-web {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -44,7 +23,7 @@
   margin-right: 93px;
 }
 
-.header_logo-studio {
+&_logo-studio {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -53,8 +32,22 @@
   letter-spacing: 0.03em;
   color: #000000;
 }
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
 
-.header-link {
+&_list {
+  display: flex;
+}
+
+&_item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+
+&_link {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -69,7 +62,7 @@
   }
 }
 
-.header-link--current {
+&_link--current {
   color: var(--accent-color);
   &::after {
     content: "";
@@ -83,7 +76,7 @@
   }
 }
 
-.header-mail {
+&_mail {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -104,12 +97,7 @@
   color: var(--accent-color);
 } */
 
-.icon-mail {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.header-tel {
+&_tel {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -124,7 +112,18 @@
   }
 }
 
-.icon-tel {
+.link_box {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.icon_mail {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon_tel {
   margin-right: 10px;
   fill: currentColor;
 }
