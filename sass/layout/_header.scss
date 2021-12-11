@@ -69,7 +69,7 @@
   }
 }
 
-.current {
+.header-link--current {
   color: var(--accent-color);
   &::after {
     content: "";

@@ -133,11 +133,11 @@ body {
   color: var(--accent-color);
 }
 
-.current {
+.header-link--current {
   color: var(--accent-color);
 }
 
-.current::after {
+.header-link--current::after {
   content: "";
   width: 100%;
   height: 4px;
