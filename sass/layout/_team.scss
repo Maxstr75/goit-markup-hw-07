@@ -66,11 +66,14 @@
 .persons-social-item {
   width: 44px;
   height: 44px;
+  & + .persons-social-item {
+    margin-left: 10px;
+  }
 }
 
-.persons-social-item + .persons-social-item {
-  margin-left: 10px;
-}
+// .persons-social-item + .persons-social-item {
+//   margin-left: 10px;
+// }
 
 .persons-social-list {
   display: flex;
