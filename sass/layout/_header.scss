@@ -12,32 +12,28 @@
   padding-bottom: 25px;
 }
 
-&_logo-web {
+.logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
-  margin-right: 93px;
+  &_logo-web {
+    color: #2196f3;
+    margin-right: 93px;
+  }
+  &_logo-studio {
+    color: #000000;
+  }
 }
 
-&_logo-studio {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-}
 .header-navigation {
   display: flex;
   align-items: center;
 }
 
-&_list {
+.header_list {
   display: flex;
 }
 

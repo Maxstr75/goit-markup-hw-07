@@ -1,8 +1,14 @@
 @import "./utils/variables";
+@import "./utils/plactholders.scss";
+@import "./utils/mixins.scss";
+@import "./utils/hidden";
+
 @import "./base/reset";
 @import "./base/common";
-@import "./utils/hidden";
+
 @import "./components/container";
+@import "./components/modal";
+
 @import "./layout/header";
 @import "./layout/hero";
 @import "./layout/peculiarities";
@@ -12,7 +18,6 @@
 @import "./layout/footer";
 @import "./layout/social_title-title";
 @import "./layout/social-newsletter-title";
-@import "./components/modal";
 @import "./layout/check-text";
 @import "./layout/page-header-portfolio";
 @import "./layout/features";
