@@ -19,11 +19,11 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  &_logo-web {
+  .header-logo-web {
     color: #2196f3;
     margin-right: 93px;
   }
-  &_logo-studio {
+  .header-logo-studio {
     color: #000000;
   }
 }
@@ -33,17 +33,17 @@
   align-items: center;
 }
 
-.header_list {
+.header-list {
   display: flex;
 }
 
-&_item {
+.header-item {
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-&_link {
+.header-link {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -58,7 +58,7 @@
   }
 }
 
-&_link--current {
+.--current {
   color: var(--accent-color);
   &::after {
     content: "";
@@ -72,7 +72,7 @@
   }
 }
 
-&_mail {
+.header-mail {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -93,7 +93,7 @@
   color: var(--accent-color);
 } */
 
-&_tel {
+.header-tel {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -108,18 +108,18 @@
   }
 }
 
-.link_box {
+.link-box {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.icon_mail {
+.icon-mail {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.icon_tel {
+.icon-tel {
   margin-right: 10px;
   fill: currentColor;
 }
