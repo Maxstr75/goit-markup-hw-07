@@ -283,7 +283,11 @@ body {
   color: var(--accent-color);
 }
 
-.header-link.current::after {
+.header-link--current {
+  color: var(--accent-color);
+}
+
+.header-link--current::after {
   content: "";
   width: 100%;
   height: 4px;
@@ -292,10 +296,6 @@ body {
   bottom: -32px;
   left: 0;
   border-radius: 2px;
-}
-
-.current {
-  color: var(--accent-color);
 }
 
 .header-mail {
