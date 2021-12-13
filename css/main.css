@@ -214,11 +214,6 @@ body {
   display: block;
 }
 
-.header-container {
-  display: flex;
-  align-items: center;
-}
-
 .page-header {
   width: 100%;
   top: 0;
@@ -228,25 +223,7 @@ body {
   padding-bottom: 25px;
 }
 
-.logo {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
-.logo .header-logo-web {
-  color: #2196f3;
-  margin-right: 93px;
-}
-
-.logo .header-logo-studio {
-  color: #000000;
-}
-
-.header-navigation {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -255,8 +232,40 @@ body {
   display: flex;
 }
 
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.link-box {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
 .header-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.header-logo-web {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  margin-right: 93px;
+}
+
+.header-logo-studio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
 
 .header-link {
@@ -274,11 +283,7 @@ body {
   color: var(--accent-color);
 }
 
-.--current {
-  color: var(--accent-color);
-}
-
-.--current::after {
+.header-link.current::after {
   content: "";
   width: 100%;
   height: 4px;
@@ -287,6 +292,10 @@ body {
   bottom: -32px;
   left: 0;
   border-radius: 2px;
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .header-mail {
@@ -309,6 +318,11 @@ body {
 .header-mail:focus {
   color: var(--accent-color);
 } */
+.icon-mail {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .header-tel {
   display: flex;
   align-items: center;
@@ -322,17 +336,6 @@ body {
 
 .header-tel:hover, .header-tel:focus {
   color: var(--accent-color);
-}
-
-.link-box {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-
-.icon-mail {
-  margin-right: 10px;
-  fill: currentColor;
 }
 
 .icon-tel {
