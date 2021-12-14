@@ -2,7 +2,7 @@
   padding-bottom: 94px;
 }
 
-.work-title {
+.about__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -16,7 +16,7 @@
   display: flex;
 }
 
-.work-item {
+.work__item {
   position: relative;
   overflow: hidden;
   &:not(:last-child) {
@@ -24,7 +24,7 @@
   }
 }
 
-.work-item > .work-item-text {
+.work__item > .work__item-text {
   position: absolute;
   top: 224px;
   right: 0;
