@@ -7,7 +7,7 @@
   display: flex;
 }
 
-.peculiarities-title-title {
+.peculiarities__title-title {
   &:not(:last-child) {
     margin-right: 30px;
     width: 270px;
@@ -44,7 +44,7 @@
   }
 }
 
-.peculiarities-title {
+.peculiarities__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
@@ -55,7 +55,7 @@
   margin-bottom: 10px;
 }
 
-.peculiarities-after-title {
+.peculiarities__after-title {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;

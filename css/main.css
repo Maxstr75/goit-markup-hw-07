@@ -425,12 +425,12 @@ body {
   display: flex;
 }
 
-.peculiarities-title-title:not(:last-child) {
+.peculiarities__title-title:not(:last-child) {
   margin-right: 30px;
   width: 270px;
 }
 
-.peculiarities-title-title::before {
+.peculiarities__title-title::before {
   display: block;
   content: "";
   width: 270px;
@@ -455,7 +455,7 @@ body {
   background-image: url("../images/astronaut.svg");
 }
 
-.peculiarities-title {
+.peculiarities__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
@@ -466,7 +466,7 @@ body {
   margin-bottom: 10px;
 }
 
-.peculiarities-after-title {
+.peculiarities__after-title {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
