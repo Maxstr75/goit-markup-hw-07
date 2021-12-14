@@ -7,7 +7,7 @@
   padding-bottom: 25px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -27,13 +27,13 @@
   margin-left: auto;
 }
 
-.header-item {
+.header__item {
   &:not(:last-child) {
     margin-right: 50px;
   }
 }
 
-.header-logo-web {
+.header__logo-web {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -44,7 +44,7 @@
   margin-right: 93px;
 }
 
-.header-logo-studio {
+.header__logo-studio {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -54,7 +54,7 @@
   color: #000000;
 }
 
-.header-link {
+.header__link {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -69,7 +69,7 @@
   }
 }
 
-.header-link--current {
+.header__link--current {
   color: var(--accent-color);
   &::after {
     content: "";
@@ -87,7 +87,7 @@
 //   color: var(--accent-color);
 // }
 
-.header-mail {
+.header__mail {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -108,12 +108,12 @@
   color: var(--accent-color);
 } */
 
-.icon-mail {
+.icon__mail {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.header-tel {
+.header__tel {
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -128,7 +128,7 @@
   }
 }
 
-.icon-tel {
+.icon__tel {
   margin-right: 10px;
   fill: currentColor;
 }
