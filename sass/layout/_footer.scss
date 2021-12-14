@@ -4,12 +4,12 @@
   padding-bottom: 60px;
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-logo-web {
+.footer__logo-web {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -19,7 +19,7 @@
   color: #2196f3;
 }
 
-.footer-logo-studio {
+.footer__logo-studio {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -29,16 +29,16 @@
   color: #ffffff;
 }
 
-.contacts-address {
+.contacts__address {
   margin-top: 20px;
   margin-bottom: 9px;
 }
 
-.contacts-item {
+.contacts__item {
   margin-bottom: 9px;
 }
 
-.contacts-link {
+.contacts__link {
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -47,7 +47,7 @@
   color: var(--second-text-color);
 }
 
-.contacts-mail {
+.contacts__mail {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -56,7 +56,7 @@
   padding-bottom: 20px;
 }
 
-.contacts-tel {
+.contacts__tel {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
