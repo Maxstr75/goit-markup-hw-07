@@ -2,7 +2,7 @@
   margin-left: 70px;
 }
 
-.social-title {
+.social__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -18,7 +18,7 @@
   display: flex;
 }
 
-.social-social-item {
+.social__social-item {
   width: 44px;
   height: 44px;
   &:not(:last-child) {
@@ -26,7 +26,7 @@
   }
 }
 
-.social-social-link {
+.social__social-link {
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -43,6 +43,6 @@
   }
 }
 
-.social-social-link {
+.social__social-link {
   fill: #ffffff;
 }
