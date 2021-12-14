@@ -4,7 +4,7 @@
   padding-bottom: 94px;
 }
 
-.client-title {
+.client__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -21,16 +21,18 @@
   justify-content: center;
 }
 
-.client-social-item {
+.client-social__item {
   width: 170px;
   height: 92px;
 }
 
-.client-social-item + .client-social-item {
-  margin-left: 30px;
+.client-social__item + {
+  & {
+    margin-left: 30px;
+  }
 }
 
-.client-social-link {
+.client-social__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -48,6 +50,6 @@
   }
 }
 
-.client-social-icon {
+.client-social__icon {
   fill: currentColor;
 }
