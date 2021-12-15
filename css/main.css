@@ -503,6 +503,9 @@ body {
 
 .team {
   background-color: #f5f4fa;
+}
+
+.team__container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
