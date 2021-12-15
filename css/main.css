@@ -346,7 +346,6 @@ body {
 }
 
 .hero {
-  margin: 0 auto;
   max-width: 1600px;
   height: 600px;
   background: #2f303a;
@@ -361,6 +360,7 @@ body {
 }
 
 .hero__container {
+  margin: 0 auto;
   width: 696px;
 }
 
