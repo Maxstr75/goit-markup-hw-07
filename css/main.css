@@ -599,6 +599,9 @@ body {
 
 .client {
   background-color: #ffffff;
+}
+
+.client__container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
