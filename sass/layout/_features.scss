@@ -1,9 +1,9 @@
-.features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+// .features {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+// }
 
-.features-list {
+.features__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -36,6 +36,7 @@
 }
 
 .features__item {
+  padding-top: 94px;
   &:not(:last-child) {
     margin-right: 8px;
   }

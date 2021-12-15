@@ -932,12 +932,7 @@ body {
   align-items: center;
 }
 
-.features {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.features-list {
+.features__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -966,6 +961,10 @@ body {
   background: #2196f3;
 }
 
+.features__item {
+  padding-top: 94px;
+}
+
 .features__item:not(:last-child) {
   margin-right: 8px;
 }
@@ -974,6 +973,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
+  padding-bottom: 94px;
 }
 
 .card__item {
