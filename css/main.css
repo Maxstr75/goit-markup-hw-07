@@ -243,7 +243,6 @@ body {
 .link-box {
   display: flex;
   align-items: center;
-  margin-left: auto;
 }
 
 .header__item:not(:last-child) {
@@ -273,6 +272,7 @@ body {
 
 .header__link {
   display: flex;
+  margin-left: auto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.13;
