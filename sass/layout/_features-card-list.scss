@@ -1,4 +1,4 @@
-.features-card-list {
+.features-card__list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
@@ -31,7 +31,6 @@
   height: 101%;
   background: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
