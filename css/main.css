@@ -224,6 +224,7 @@ body {
   left: 0;
   padding-top: 25px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header__container {
