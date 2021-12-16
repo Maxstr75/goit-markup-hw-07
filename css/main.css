@@ -694,11 +694,11 @@ body {
   margin-bottom: 9px;
 }
 
-.contacts__item {
+.contacts-link__item {
   margin-bottom: 9px;
 }
 
-.contacts__link {
+.contacts-link {
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
@@ -745,12 +745,12 @@ body {
   display: flex;
 }
 
-.social__social-item {
+.social-aftter-list__social-item {
   width: 44px;
   height: 44px;
 }
 
-.social__social-item:not(:last-child) {
+.social-aftter-list__social-item:not(:last-child) {
   margin-right: 10px;
 }
 
