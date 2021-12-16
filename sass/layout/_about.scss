@@ -16,7 +16,7 @@
   display: flex;
 }
 
-.work__item {
+.work-list__item {
   position: relative;
   overflow: hidden;
   &:not(:last-child) {
@@ -24,7 +24,7 @@
   }
 }
 
-.work__item > .work__item-text {
+.work-list__item > .work-list__item-text {
   position: absolute;
   top: 224px;
   right: 0;

@@ -406,12 +406,12 @@ body {
   display: flex;
 }
 
-.peculiarities__title-title:not(:last-child) {
+.peculiarities-list__title-title:not(:last-child) {
   margin-right: 30px;
   width: 270px;
 }
 
-.peculiarities__title-title::before {
+.peculiarities-list__title-title::before {
   display: block;
   content: "";
   width: 270px;
@@ -474,16 +474,16 @@ body {
   display: flex;
 }
 
-.work__item {
+.work-list__item {
   position: relative;
   overflow: hidden;
 }
 
-.work__item:not(:last-child) {
+.work-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.work__item > .work__item-text {
+.work-list__item > .work-list__item-text {
   position: absolute;
   top: 224px;
   right: 0;
