@@ -242,10 +242,11 @@ body {
 }
 
 .link-box {
+  display: flex;
   align-items: center;
 }
 
-.header__item:not(:last-child) {
+.header-list__item:not(:last-child) {
   margin-right: 50px;
 }
 

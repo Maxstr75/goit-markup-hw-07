@@ -25,11 +25,11 @@
 }
 
 .link-box {
-  // display: flex;
+  display: flex;
   align-items: center;
 }
 
-.header__item {
+.header-list__item {
   &:not(:last-child) {
     margin-right: 50px;
   }
